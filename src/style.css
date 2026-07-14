@@ -89,3 +89,22 @@ Do not delete any of the above code. */
     color: white;
   }
 }
+/* C2: side-by-side view on desktop */
+.layout-wrapper{
+  display: flex;
+}
+.main-content{
+  background-color: #3498db;
+  padding: 20px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  border-radius: 8px;
+}
+.sidebar{
+  background-color: #2ecc71;
+  padding: 20px;
+  color: white;
+   text-shadow: 2px 2px 5px black;
+  border-radius: 8px;
+
+}
