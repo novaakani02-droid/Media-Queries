@@ -129,7 +129,8 @@ Do not delete any of the above code. */
 }
 .menu-container:hover .nav-links {
 flex-direction: column;
-display:flex
+display: flex;
+
 
 }
 }
