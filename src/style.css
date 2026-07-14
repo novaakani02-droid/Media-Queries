@@ -75,23 +75,11 @@ Do not delete any of the above code. */
   border-radius: 5px;
   color: white;
 }
-/* styling for tablet */
-@media screen and (max-width: 991px) {
-  .light-box {
-    background-color: yellow;
-    color: #2C3E50;
-  }
-}
-/* styling for mobile */
-@media screen and (max-width: 786px) {
-  .light-box {
-    background-color: green;
-    color: white;
-  }
-}
-/* C2: side-by-side view on desktop */
+
+/* C2: side-by-side on desktop */
 .layout-wrapper{
   display: flex;
+  gap : 20px;
 }
 .main-content{
   background-color: #3498db;
@@ -101,10 +89,27 @@ Do not delete any of the above code. */
   border-radius: 8px;
 }
 .sidebar{
-  background-color: #2ecc71;
+  background-color: cadetblue;
   padding: 20px;
   color: white;
-   text-shadow: 2px 2px 5px black;
+  text-shadow: 2px 2px 5px black;
   border-radius: 8px;
 
+}
+/* styling for tablet */
+@media screen and (max-width: 991px) {
+  .light-box {
+    background-color: yellow;
+    color: #2c3e50;
+  }
+}
+/* styling for mobile */
+@media screen and (max-width: 786px) {
+  .light-box {
+    background-color: green;
+    color: white;
+  }
+}
+.layout-wrapper {
+  flex-direction: column;
 }
