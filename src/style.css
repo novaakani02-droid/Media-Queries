@@ -75,3 +75,10 @@ Do not delete any of the above code. */
   border-radius: 5px;
   color: white;
 }
+/* styling for tablet */
+@media screen and (max-width: 991px) {
+  .light-box {
+    background-color: yellow;
+    color: #2C3E50;
+  }
+}
