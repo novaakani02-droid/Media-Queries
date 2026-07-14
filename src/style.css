@@ -82,3 +82,10 @@ Do not delete any of the above code. */
     color: #2C3E50;
   }
 }
+/* styling for mobile */
+@media screen and (max-width: 786px) {
+  .light-box {
+    background-color: green;
+    color: white;
+  }
+}
